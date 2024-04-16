@@ -1,0 +1,51 @@
+.brand-text {
+    text-align: center;
+    margin: 3rem auto;
+  }
+  
+  .brands-cart {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 85%;
+    margin: 3rem auto;
+    gap: 1rem;
+  }
+  
+  .brands-cart>div {
+    background-color: #656565;
+    height: 400px;
+    text-align: center;
+    background-size: cover;
+    object-fit: cover;
+  }
+  
+  .brands-cart>div:first-child {
+    background-image: url("/public/images/placeholder-image.png");
+    background-position: center;
+  }
+  
+  .brands-cart>div:nth-child(2) {
+    background-image: url("/public/images/placeholder-image.png");
+    background-position: center;
+  }
+  
+  .brands-cart>div:nth-child(3) {
+    background-image: url("/public/images/placeholder-image.png");
+    background-position: center;
+  
+  }
+  
+  .brands-cart>div:nth-child(4) {
+    background-image: url("/public/images/placeholder-image.png");
+    background-position: center;
+  }
+  
+  .brand-text {
+    line-height: 40px;
+  }
+  
+  .brand-text h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+  
+  }

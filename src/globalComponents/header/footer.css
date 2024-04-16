@@ -1,0 +1,132 @@
+.icons {
+    display: flex;
+    background-color: #FFF3F3;
+    height: 60px;
+    padding: 0 8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.social-media>div {
+    background-color: red;
+    width: 43px;
+    height: 43px;
+    border-radius: 100%;
+}
+
+.social-media>div:first-child {
+    background-image: url("/public/images/facebook.png");
+    background-size: cover;
+
+}
+
+.social-media>div:nth-child(2) {
+    background-image: url("/public/images/instagram.png");
+    background-size: cover;
+
+}
+
+.social-media>div:nth-child(3) {
+    background-image: url("/public/images/snapchat.png");
+    background-size: cover;
+
+}
+
+.social-media>div:nth-child(4) {
+    background-image: url("/public/images/pintrest.png");
+    background-size: cover;
+
+}
+
+.payment {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.payment {
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.payment>div {
+    width: 65px;
+    height: 43px;
+    border-radius: 7px;
+}
+
+.payment>div:first-child {
+    background-image: url("/public/images/klarna.png");
+    background-size: cover;
+
+}
+
+.payment>div:nth-child(2) {
+    background-image: url("/public/images/visa.png");
+    background-size: cover;
+
+}
+
+.payment>div:nth-child(3) {
+    background-image: url("/public/images/MicrosoftTeams-image\ \(19\).png");
+    background-size: cover;
+
+}
+
+.payment>div:nth-child(4) {
+    background-image: url("/public/images/paypal.png");
+    background-size: cover;
+
+}
+
+.footer {
+    height: 420px;
+    background-color: #DBB9D8;
+    color: #1B1346;
+    padding: 5rem 8rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.footer h2 {
+    margin-bottom: 1rem;
+}
+
+.footer p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+input,select,textarea{
+    padding: .5em 1em;
+    border-radius: 8px; 
+}
+
+.sendMassage,
+.sendMassage form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button{
+    padding: .5em 1em;
+    color: #FFF3F3;
+    background-color: #1B1346;
+    border-radius: 8px;
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+

@@ -1,0 +1,103 @@
+.product-container{
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    height: 500px;
+    width: 80%;
+    margin: 2rem auto;
+    border: 1px solid rgba(91, 91, 91, 0.619);
+
+  }
+  .product-info__container{
+    background-color: #ddddddc8;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 3rem 2rem;
+    justify-content: center;
+    
+  }
+  .product-info__img{
+    background-image: url("/public/images/placeholder-image.png");
+    position: center;
+    background-size: cover;
+    background-position: center;
+    /* border-bottom: none; */
+    height: 500px;
+  }
+  /* .product-info__img img{ 
+  width: 100%;
+  height: 100%;
+  } */
+  .product-info__img:hover{
+    cursor: pointer;
+    background-color: #65656548;
+  }
+  .pick-color{
+    display: flex;
+    gap: 20px;
+  }
+  .pick-color>div{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  .pick-color>div:first-child{
+    background-color: #ffffff;
+    border: 1px solid #1B1346;
+  
+  
+  }
+  .pick-color>div:nth-child(2){
+    background-color: #b9c9db;
+  }
+  .pick-color>div:nth-child(3){
+    background-color: #b9dbbb;
+  }
+  .pick-color>div:last-child{
+    background-color: #DBB9D8;
+  }
+  .shop-product{
+    display: flex;
+    gap: 10px;
+  
+  }
+  .shop-product>div{
+    padding: 10px 15px;
+    border: 1px solid #1B1346;
+    cursor: pointer;
+    text-align: center;
+  }
+  .shop-product>button{
+    width: 100%;
+    background-color: #1B1346;
+    color: #fff;
+  }
+  .shop-product>button:hover{
+    box-shadow: 3px 3px 5px #6659ac74;
+  }
+  .shop-product>div:last-child:hover{
+    color: #FE0909;
+  
+  }
+  .share-product{
+    display: flex;
+    gap: 10px;
+  
+  }
+  .share-product>div{
+    cursor: pointer;
+  }
+  
+  .share-product p{	
+    padding-top: 12px;	
+  }	
+  .shareToInsta {	
+    background-image: url("/public/images/instagram.png");	
+    background-size: cover;	
+    width: 31px;	
+    height: 32px;	
+    border-radius: 100%;	
+    margin-top: 7px;	
+  }

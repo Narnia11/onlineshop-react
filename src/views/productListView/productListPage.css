@@ -1,0 +1,79 @@
+.allProdContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 3rem 8rem;
+  }
+  
+  .filterProduct {
+    display: flex;
+    gap: 10px;
+  
+  }
+  
+  .filterItem {
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 8px 14px;
+    cursor: pointer;
+  }
+  
+  .filterItem:hover {
+    color: #ddd;
+    background-color: #1B1346;
+  }
+  
+  .default {
+    color: #ddd;
+    background-color: #1B1346;
+  }
+  
+  .productListContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px
+  }
+  
+  .productListItem {
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    /* border: 1px solid gray; */
+    margin-right: 10px;
+  }
+  
+  .productImg {
+    background-image: url("/public/images/placeholder-image.png");
+    background-size: cover;
+    height: 80%;
+    background-position: center;
+    position: relative;
+  }
+  
+  .heart {
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .productContent {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .underCard span {
+    font-size: 14px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left: 15px;
+  
+  }
+  
+  .underCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }

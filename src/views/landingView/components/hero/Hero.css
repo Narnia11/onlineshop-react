@@ -1,0 +1,12 @@
+.hero {
+    /* display: grid;
+    grid-template-columns: 1fr 4fr; */
+    background-image: url("/public/images/placeholder-image.png");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 90%;
+    margin: 1rem auto;
+    background-color: #ddd;
+    cursor: pointer;
+  }

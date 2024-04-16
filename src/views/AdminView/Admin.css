@@ -1,0 +1,145 @@
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'side main main main main main';
+    padding: 20px;
+  }
+  
+  .side {
+    grid-area: side;
+    background-color: #100B2F;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    /* font-size: .88rem; */
+  }
+  
+  .side hr {
+    width: 90%;
+    text-align: center;
+    opacity: 60%;
+  
+  }
+  
+  .side h1 {
+    margin-bottom: 80px;
+    margin-top: 30px;
+  }
+  
+  .side h3 {
+    margin: 30px 0px;
+    padding: 10px;
+  }
+  
+  .thisPage {
+    font-size: 1.7rem;
+  }
+  
+  .maingrid {
+    background-color: #ddd;
+    grid-area: main;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .rubrik {
+    display: flex;
+  }
+  
+  .avatar {
+    width: 15%;
+    margin: 10px;
+  }
+  
+  .rubrik h1 {
+    margin-left: 20%;
+    margin-top: 50px;
+  }
+  
+  .form-container {
+    width: 779px;
+    margin: auto;
+    margin-bottom: 5%;
+    padding: 20px;
+    border-radius: 28px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .form-container div input {
+    width: 718px;
+    height: 50px;
+  
+    border: #a4a3a3 solid .5px;
+    box-shadow: #ddd 1px 2px;
+    margin-top: 5px;
+    border-radius: 8px;
+  }
+  
+  .form-container div select {
+    width: 718px;
+    height: 50px;
+    color: #858383;
+    border-radius: 8px;
+    margin-top: 5px;
+    border: #a4a3a3 solid .5px;
+    box-shadow: #ddd 1px 2px;
+  }
+  
+  .form-container div {
+    width: 100%;
+    margin: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .form-container Button {
+    width: 718px;
+    align-self: center;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.error {
+    color: #FE0909;
+    font-size: smaller;
+    margin-left: 10px;
+  }
+  .imageDiv .UploadBtn{
+  
+    width:20%;
+    background-color: #1B1346;
+    margin: 0px 10px 0px 20px;
+    padding: 0%;
+    font-size: smaller;
+    margin-top: 20px;
+  }
+  .imageDiv{
+   display: flex;
+   
+  }
+  .imageDiv div{
+    margin: 0px;
+    width: 70%;
+  }
+  .imageDiv div input{
+    width: 100%;
+    margin-top: 0px;
+  }
+  .nameHeart{
+    display: flex;
+    justify-content: space-between;
+  }
+  

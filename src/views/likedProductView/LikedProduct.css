@@ -1,0 +1,39 @@
+
+
+.likedMain .title {
+    font-size: 2rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px ;
+    margin-right: 45%;
+}
+
+.filter{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.filter form{
+    padding: 0px;
+}
+
+.filter  select{
+    margin: 0px 10px;
+}
+
+
+.filterBut{
+    background-color: white;
+    color: black;
+    width: 123.45px;
+    font-size:15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    border: solid  .5px rgb(118, 118, 118);
+    margin: 0px 10px;
+    height: 42.53px;
+}
+
+.listContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
